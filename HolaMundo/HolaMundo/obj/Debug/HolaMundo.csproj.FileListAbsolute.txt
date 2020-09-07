@@ -1,0 +1,7 @@
+C:\Practicas\PACIII2020POO\HolaMundo\HolaMundo\bin\Debug\HolaMundo.exe.config
+C:\Practicas\PACIII2020POO\HolaMundo\HolaMundo\bin\Debug\HolaMundo.exe
+C:\Practicas\PACIII2020POO\HolaMundo\HolaMundo\bin\Debug\HolaMundo.pdb
+C:\Practicas\PACIII2020POO\HolaMundo\HolaMundo\obj\Debug\HolaMundo.csprojAssemblyReference.cache
+C:\Practicas\PACIII2020POO\HolaMundo\HolaMundo\obj\Debug\HolaMundo.csproj.CoreCompileInputs.cache
+C:\Practicas\PACIII2020POO\HolaMundo\HolaMundo\obj\Debug\HolaMundo.exe
+C:\Practicas\PACIII2020POO\HolaMundo\HolaMundo\obj\Debug\HolaMundo.pdb
