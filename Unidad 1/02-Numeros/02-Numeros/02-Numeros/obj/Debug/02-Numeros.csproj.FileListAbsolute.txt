@@ -1,0 +1,7 @@
+C:\Practicas\PACIII2020POO\Unidad 1\02-Numeros\02-Numeros\02-Numeros\bin\Debug\02-Numeros.exe.config
+C:\Practicas\PACIII2020POO\Unidad 1\02-Numeros\02-Numeros\02-Numeros\bin\Debug\02-Numeros.exe
+C:\Practicas\PACIII2020POO\Unidad 1\02-Numeros\02-Numeros\02-Numeros\bin\Debug\02-Numeros.pdb
+C:\Practicas\PACIII2020POO\Unidad 1\02-Numeros\02-Numeros\02-Numeros\obj\Debug\02-Numeros.csprojAssemblyReference.cache
+C:\Practicas\PACIII2020POO\Unidad 1\02-Numeros\02-Numeros\02-Numeros\obj\Debug\02-Numeros.csproj.CoreCompileInputs.cache
+C:\Practicas\PACIII2020POO\Unidad 1\02-Numeros\02-Numeros\02-Numeros\obj\Debug\02-Numeros.exe
+C:\Practicas\PACIII2020POO\Unidad 1\02-Numeros\02-Numeros\02-Numeros\obj\Debug\02-Numeros.pdb
