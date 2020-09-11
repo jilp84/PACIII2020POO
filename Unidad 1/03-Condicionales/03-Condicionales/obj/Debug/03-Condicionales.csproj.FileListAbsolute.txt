@@ -1,0 +1,7 @@
+C:\Practicas\PACIII2020POO\Unidad 1\03-Condicionales\03-Condicionales\bin\Debug\03-Condicionales.exe.config
+C:\Practicas\PACIII2020POO\Unidad 1\03-Condicionales\03-Condicionales\bin\Debug\03-Condicionales.exe
+C:\Practicas\PACIII2020POO\Unidad 1\03-Condicionales\03-Condicionales\bin\Debug\03-Condicionales.pdb
+C:\Practicas\PACIII2020POO\Unidad 1\03-Condicionales\03-Condicionales\obj\Debug\03-Condicionales.csprojAssemblyReference.cache
+C:\Practicas\PACIII2020POO\Unidad 1\03-Condicionales\03-Condicionales\obj\Debug\03-Condicionales.csproj.CoreCompileInputs.cache
+C:\Practicas\PACIII2020POO\Unidad 1\03-Condicionales\03-Condicionales\obj\Debug\03-Condicionales.exe
+C:\Practicas\PACIII2020POO\Unidad 1\03-Condicionales\03-Condicionales\obj\Debug\03-Condicionales.pdb
