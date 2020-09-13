@@ -1,0 +1,7 @@
+C:\Practicas\PACIII2020POO\Unidad 1\04-IteradoresBucles\04-IteradoresBucles\bin\Debug\04-IteradoresBucles.exe.config
+C:\Practicas\PACIII2020POO\Unidad 1\04-IteradoresBucles\04-IteradoresBucles\bin\Debug\04-IteradoresBucles.exe
+C:\Practicas\PACIII2020POO\Unidad 1\04-IteradoresBucles\04-IteradoresBucles\bin\Debug\04-IteradoresBucles.pdb
+C:\Practicas\PACIII2020POO\Unidad 1\04-IteradoresBucles\04-IteradoresBucles\obj\Debug\04-IteradoresBucles.csprojAssemblyReference.cache
+C:\Practicas\PACIII2020POO\Unidad 1\04-IteradoresBucles\04-IteradoresBucles\obj\Debug\04-IteradoresBucles.csproj.CoreCompileInputs.cache
+C:\Practicas\PACIII2020POO\Unidad 1\04-IteradoresBucles\04-IteradoresBucles\obj\Debug\04-IteradoresBucles.exe
+C:\Practicas\PACIII2020POO\Unidad 1\04-IteradoresBucles\04-IteradoresBucles\obj\Debug\04-IteradoresBucles.pdb
