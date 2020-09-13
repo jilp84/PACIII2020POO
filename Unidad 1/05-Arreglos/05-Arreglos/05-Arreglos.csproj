@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B89B9FF9-EF5F-470C-9BD7-6947B2D19DA9}</ProjectGuid>
+    <ProjectGuid>{5293EC41-BE40-4755-805A-06DB184B0782}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_04_IteradoresBucles</RootNamespace>
-    <AssemblyName>04-IteradoresBucles</AssemblyName>
+    <RootNamespace>_05_Arreglos</RootNamespace>
+    <AssemblyName>05-Arreglos</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>_04_IteradoresBucles.CicloDo</StartupObject>
+    <StartupObject>_05_Arreglos.Arreglo3</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,9 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CicloDo.cs" />
-    <Compile Include="CicloFor.cs" />
-    <Compile Include="CicloWhile.cs" />
+    <Compile Include="Arreglo1.cs" />
+    <Compile Include="Arreglo2.cs" />
+    <Compile Include="Arreglo3.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
