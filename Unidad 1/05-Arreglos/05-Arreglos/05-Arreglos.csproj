@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>_05_Arreglos.Arreglo3</StartupObject>
+    <StartupObject>_05_Arreglos.Matriz3</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,6 +49,9 @@
     <Compile Include="Arreglo1.cs" />
     <Compile Include="Arreglo2.cs" />
     <Compile Include="Arreglo3.cs" />
+    <Compile Include="Matriz1.cs" />
+    <Compile Include="Matriz2.cs" />
+    <Compile Include="Matriz3.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

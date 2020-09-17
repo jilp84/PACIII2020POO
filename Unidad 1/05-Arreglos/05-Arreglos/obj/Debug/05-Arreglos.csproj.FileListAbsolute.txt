@@ -5,3 +5,10 @@ C:\Practicas\PACIII2020POO\Unidad 1\05-Arreglos\05-Arreglos\obj\Debug\05-Arreglo
 C:\Practicas\PACIII2020POO\Unidad 1\05-Arreglos\05-Arreglos\obj\Debug\05-Arreglos.csproj.CoreCompileInputs.cache
 C:\Practicas\PACIII2020POO\Unidad 1\05-Arreglos\05-Arreglos\obj\Debug\05-Arreglos.exe
 C:\Practicas\PACIII2020POO\Unidad 1\05-Arreglos\05-Arreglos\obj\Debug\05-Arreglos.pdb
+C:\developer\PACIII2020POO\Unidad 1\05-Arreglos\05-Arreglos\bin\Debug\05-Arreglos.exe.config
+C:\developer\PACIII2020POO\Unidad 1\05-Arreglos\05-Arreglos\bin\Debug\05-Arreglos.exe
+C:\developer\PACIII2020POO\Unidad 1\05-Arreglos\05-Arreglos\bin\Debug\05-Arreglos.pdb
+C:\developer\PACIII2020POO\Unidad 1\05-Arreglos\05-Arreglos\obj\Debug\05-Arreglos.csprojAssemblyReference.cache
+C:\developer\PACIII2020POO\Unidad 1\05-Arreglos\05-Arreglos\obj\Debug\05-Arreglos.csproj.CoreCompileInputs.cache
+C:\developer\PACIII2020POO\Unidad 1\05-Arreglos\05-Arreglos\obj\Debug\05-Arreglos.exe
+C:\developer\PACIII2020POO\Unidad 1\05-Arreglos\05-Arreglos\obj\Debug\05-Arreglos.pdb
