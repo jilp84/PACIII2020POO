@@ -1,0 +1,10 @@
+C:\developer\PACIII2020POO\Unidad 1\06-windowsforms\06-windowsforms\bin\Debug\06-windowsforms.exe.config
+C:\developer\PACIII2020POO\Unidad 1\06-windowsforms\06-windowsforms\bin\Debug\06-windowsforms.exe
+C:\developer\PACIII2020POO\Unidad 1\06-windowsforms\06-windowsforms\bin\Debug\06-windowsforms.pdb
+C:\developer\PACIII2020POO\Unidad 1\06-windowsforms\06-windowsforms\obj\Debug\06-windowsforms.csprojAssemblyReference.cache
+C:\developer\PACIII2020POO\Unidad 1\06-windowsforms\06-windowsforms\obj\Debug\_06_windowsforms.Properties.Resources.resources
+C:\developer\PACIII2020POO\Unidad 1\06-windowsforms\06-windowsforms\obj\Debug\06-windowsforms.csproj.GenerateResource.cache
+C:\developer\PACIII2020POO\Unidad 1\06-windowsforms\06-windowsforms\obj\Debug\06-windowsforms.csproj.CoreCompileInputs.cache
+C:\developer\PACIII2020POO\Unidad 1\06-windowsforms\06-windowsforms\obj\Debug\06-windowsforms.exe
+C:\developer\PACIII2020POO\Unidad 1\06-windowsforms\06-windowsforms\obj\Debug\06-windowsforms.pdb
+C:\developer\PACIII2020POO\Unidad 1\06-windowsforms\06-windowsforms\obj\Debug\_06_windowsforms.Form1.resources
