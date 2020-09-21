@@ -1,0 +1,10 @@
+C:\developer\PACIII2020POO\Unidad 1\09-windowsforms-colores\09-windowsforms-colores\bin\Debug\09-windowsforms-colores.exe.config
+C:\developer\PACIII2020POO\Unidad 1\09-windowsforms-colores\09-windowsforms-colores\bin\Debug\09-windowsforms-colores.exe
+C:\developer\PACIII2020POO\Unidad 1\09-windowsforms-colores\09-windowsforms-colores\bin\Debug\09-windowsforms-colores.pdb
+C:\developer\PACIII2020POO\Unidad 1\09-windowsforms-colores\09-windowsforms-colores\obj\Debug\09-windowsforms-colores.csprojAssemblyReference.cache
+C:\developer\PACIII2020POO\Unidad 1\09-windowsforms-colores\09-windowsforms-colores\obj\Debug\_09_windowsforms_colores.Form1.resources
+C:\developer\PACIII2020POO\Unidad 1\09-windowsforms-colores\09-windowsforms-colores\obj\Debug\_09_windowsforms_colores.Properties.Resources.resources
+C:\developer\PACIII2020POO\Unidad 1\09-windowsforms-colores\09-windowsforms-colores\obj\Debug\09-windowsforms-colores.csproj.GenerateResource.cache
+C:\developer\PACIII2020POO\Unidad 1\09-windowsforms-colores\09-windowsforms-colores\obj\Debug\09-windowsforms-colores.csproj.CoreCompileInputs.cache
+C:\developer\PACIII2020POO\Unidad 1\09-windowsforms-colores\09-windowsforms-colores\obj\Debug\09-windowsforms-colores.exe
+C:\developer\PACIII2020POO\Unidad 1\09-windowsforms-colores\09-windowsforms-colores\obj\Debug\09-windowsforms-colores.pdb

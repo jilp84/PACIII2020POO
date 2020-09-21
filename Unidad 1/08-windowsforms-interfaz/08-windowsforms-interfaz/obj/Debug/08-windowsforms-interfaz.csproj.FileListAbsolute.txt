@@ -1,0 +1,11 @@
+C:\developer\PACIII2020POO\Unidad 1\08-windowsforms-interfaz\08-windowsforms-interfaz\bin\Debug\08-windowsforms-interfaz.exe.config
+C:\developer\PACIII2020POO\Unidad 1\08-windowsforms-interfaz\08-windowsforms-interfaz\bin\Debug\08-windowsforms-interfaz.exe
+C:\developer\PACIII2020POO\Unidad 1\08-windowsforms-interfaz\08-windowsforms-interfaz\bin\Debug\08-windowsforms-interfaz.pdb
+C:\developer\PACIII2020POO\Unidad 1\08-windowsforms-interfaz\08-windowsforms-interfaz\obj\Debug\08-windowsforms-interfaz.csprojAssemblyReference.cache
+C:\developer\PACIII2020POO\Unidad 1\08-windowsforms-interfaz\08-windowsforms-interfaz\obj\Debug\_08_windowsforms_interfaz.Properties.Resources.resources
+C:\developer\PACIII2020POO\Unidad 1\08-windowsforms-interfaz\08-windowsforms-interfaz\obj\Debug\08-windowsforms-interfaz.csproj.GenerateResource.cache
+C:\developer\PACIII2020POO\Unidad 1\08-windowsforms-interfaz\08-windowsforms-interfaz\obj\Debug\08-windowsforms-interfaz.csproj.CoreCompileInputs.cache
+C:\developer\PACIII2020POO\Unidad 1\08-windowsforms-interfaz\08-windowsforms-interfaz\obj\Debug\08-windowsforms-interfaz.exe
+C:\developer\PACIII2020POO\Unidad 1\08-windowsforms-interfaz\08-windowsforms-interfaz\obj\Debug\08-windowsforms-interfaz.pdb
+C:\developer\PACIII2020POO\Unidad 1\08-windowsforms-interfaz\08-windowsforms-interfaz\obj\Debug\_08_windowsforms_interfaz.Form1.resources
+C:\developer\PACIII2020POO\Unidad 1\08-windowsforms-interfaz\08-windowsforms-interfaz\obj\Debug\_08_windowsforms_interfaz.Form2.resources

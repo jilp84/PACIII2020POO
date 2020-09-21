@@ -1,0 +1,10 @@
+C:\developer\PACIII2020POO\Unidad 1\10-windowsforms-radiob\10-windowsforms-radiob\bin\Debug\10-windowsforms-radiob.exe.config
+C:\developer\PACIII2020POO\Unidad 1\10-windowsforms-radiob\10-windowsforms-radiob\bin\Debug\10-windowsforms-radiob.exe
+C:\developer\PACIII2020POO\Unidad 1\10-windowsforms-radiob\10-windowsforms-radiob\bin\Debug\10-windowsforms-radiob.pdb
+C:\developer\PACIII2020POO\Unidad 1\10-windowsforms-radiob\10-windowsforms-radiob\obj\Debug\10-windowsforms-radiob.csprojAssemblyReference.cache
+C:\developer\PACIII2020POO\Unidad 1\10-windowsforms-radiob\10-windowsforms-radiob\obj\Debug\_10_windowsforms_radiob.Form1.resources
+C:\developer\PACIII2020POO\Unidad 1\10-windowsforms-radiob\10-windowsforms-radiob\obj\Debug\_10_windowsforms_radiob.Properties.Resources.resources
+C:\developer\PACIII2020POO\Unidad 1\10-windowsforms-radiob\10-windowsforms-radiob\obj\Debug\10-windowsforms-radiob.csproj.GenerateResource.cache
+C:\developer\PACIII2020POO\Unidad 1\10-windowsforms-radiob\10-windowsforms-radiob\obj\Debug\10-windowsforms-radiob.csproj.CoreCompileInputs.cache
+C:\developer\PACIII2020POO\Unidad 1\10-windowsforms-radiob\10-windowsforms-radiob\obj\Debug\10-windowsforms-radiob.exe
+C:\developer\PACIII2020POO\Unidad 1\10-windowsforms-radiob\10-windowsforms-radiob\obj\Debug\10-windowsforms-radiob.pdb
