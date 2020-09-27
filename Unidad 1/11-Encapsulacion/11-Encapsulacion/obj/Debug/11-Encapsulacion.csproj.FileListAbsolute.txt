@@ -1,0 +1,11 @@
+C:\Practicas\PACIII2020POO\Unidad 1\11-Encapsulacion\11-Encapsulacion\bin\Debug\11-Encapsulacion.exe.config
+C:\Practicas\PACIII2020POO\Unidad 1\11-Encapsulacion\11-Encapsulacion\bin\Debug\11-Encapsulacion.exe
+C:\Practicas\PACIII2020POO\Unidad 1\11-Encapsulacion\11-Encapsulacion\bin\Debug\11-Encapsulacion.pdb
+C:\Practicas\PACIII2020POO\Unidad 1\11-Encapsulacion\11-Encapsulacion\obj\Debug\11-Encapsulacion.csprojAssemblyReference.cache
+C:\Practicas\PACIII2020POO\Unidad 1\11-Encapsulacion\11-Encapsulacion\obj\Debug\_11_Encapsulacion.EmployeeDetails.resources
+C:\Practicas\PACIII2020POO\Unidad 1\11-Encapsulacion\11-Encapsulacion\obj\Debug\_11_Encapsulacion.Form1.resources
+C:\Practicas\PACIII2020POO\Unidad 1\11-Encapsulacion\11-Encapsulacion\obj\Debug\_11_Encapsulacion.Properties.Resources.resources
+C:\Practicas\PACIII2020POO\Unidad 1\11-Encapsulacion\11-Encapsulacion\obj\Debug\11-Encapsulacion.csproj.GenerateResource.cache
+C:\Practicas\PACIII2020POO\Unidad 1\11-Encapsulacion\11-Encapsulacion\obj\Debug\11-Encapsulacion.csproj.CoreCompileInputs.cache
+C:\Practicas\PACIII2020POO\Unidad 1\11-Encapsulacion\11-Encapsulacion\obj\Debug\11-Encapsulacion.exe
+C:\Practicas\PACIII2020POO\Unidad 1\11-Encapsulacion\11-Encapsulacion\obj\Debug\11-Encapsulacion.pdb
