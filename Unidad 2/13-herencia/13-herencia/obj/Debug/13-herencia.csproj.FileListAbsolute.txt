@@ -1,0 +1,10 @@
+C:\Practicas\PACIII2020POO\Unidad 2\13-herencia\13-herencia\bin\Debug\13-herencia.exe.config
+C:\Practicas\PACIII2020POO\Unidad 2\13-herencia\13-herencia\bin\Debug\13-herencia.exe
+C:\Practicas\PACIII2020POO\Unidad 2\13-herencia\13-herencia\bin\Debug\13-herencia.pdb
+C:\Practicas\PACIII2020POO\Unidad 2\13-herencia\13-herencia\obj\Debug\13-herencia.csprojAssemblyReference.cache
+C:\Practicas\PACIII2020POO\Unidad 2\13-herencia\13-herencia\obj\Debug\_13_herencia.Form1.resources
+C:\Practicas\PACIII2020POO\Unidad 2\13-herencia\13-herencia\obj\Debug\_13_herencia.Properties.Resources.resources
+C:\Practicas\PACIII2020POO\Unidad 2\13-herencia\13-herencia\obj\Debug\13-herencia.csproj.GenerateResource.cache
+C:\Practicas\PACIII2020POO\Unidad 2\13-herencia\13-herencia\obj\Debug\13-herencia.csproj.CoreCompileInputs.cache
+C:\Practicas\PACIII2020POO\Unidad 2\13-herencia\13-herencia\obj\Debug\13-herencia.exe
+C:\Practicas\PACIII2020POO\Unidad 2\13-herencia\13-herencia\obj\Debug\13-herencia.pdb

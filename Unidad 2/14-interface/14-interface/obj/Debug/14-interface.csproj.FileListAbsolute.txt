@@ -1,0 +1,10 @@
+C:\Practicas\PACIII2020POO\Unidad 2\14-interface\14-interface\bin\Debug\14-interface.exe.config
+C:\Practicas\PACIII2020POO\Unidad 2\14-interface\14-interface\bin\Debug\14-interface.exe
+C:\Practicas\PACIII2020POO\Unidad 2\14-interface\14-interface\bin\Debug\14-interface.pdb
+C:\Practicas\PACIII2020POO\Unidad 2\14-interface\14-interface\obj\Debug\14-interface.csprojAssemblyReference.cache
+C:\Practicas\PACIII2020POO\Unidad 2\14-interface\14-interface\obj\Debug\_14_interface.Form1.resources
+C:\Practicas\PACIII2020POO\Unidad 2\14-interface\14-interface\obj\Debug\_14_interface.Properties.Resources.resources
+C:\Practicas\PACIII2020POO\Unidad 2\14-interface\14-interface\obj\Debug\14-interface.csproj.GenerateResource.cache
+C:\Practicas\PACIII2020POO\Unidad 2\14-interface\14-interface\obj\Debug\14-interface.csproj.CoreCompileInputs.cache
+C:\Practicas\PACIII2020POO\Unidad 2\14-interface\14-interface\obj\Debug\14-interface.exe
+C:\Practicas\PACIII2020POO\Unidad 2\14-interface\14-interface\obj\Debug\14-interface.pdb

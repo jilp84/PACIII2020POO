@@ -1,0 +1,10 @@
+C:\Users\jocpa\source\repos\12-pyr\12-pyr\bin\Debug\12-pyr.exe.config
+C:\Users\jocpa\source\repos\12-pyr\12-pyr\bin\Debug\12-pyr.exe
+C:\Users\jocpa\source\repos\12-pyr\12-pyr\bin\Debug\12-pyr.pdb
+C:\Users\jocpa\source\repos\12-pyr\12-pyr\obj\Debug\12-pyr.csprojAssemblyReference.cache
+C:\Users\jocpa\source\repos\12-pyr\12-pyr\obj\Debug\_12_pyr.Form1.resources
+C:\Users\jocpa\source\repos\12-pyr\12-pyr\obj\Debug\_12_pyr.Properties.Resources.resources
+C:\Users\jocpa\source\repos\12-pyr\12-pyr\obj\Debug\12-pyr.csproj.GenerateResource.cache
+C:\Users\jocpa\source\repos\12-pyr\12-pyr\obj\Debug\12-pyr.csproj.CoreCompileInputs.cache
+C:\Users\jocpa\source\repos\12-pyr\12-pyr\obj\Debug\12-pyr.exe
+C:\Users\jocpa\source\repos\12-pyr\12-pyr\obj\Debug\12-pyr.pdb
