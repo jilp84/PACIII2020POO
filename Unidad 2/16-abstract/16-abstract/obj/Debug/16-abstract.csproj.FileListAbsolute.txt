@@ -1,0 +1,10 @@
+C:\Practicas\PACIII2020POO\Unidad 2\16-abstract\16-abstract\obj\Debug\16-abstract.csprojAssemblyReference.cache
+C:\Practicas\PACIII2020POO\Unidad 2\16-abstract\16-abstract\obj\Debug\_16_abstract.Form1.resources
+C:\Practicas\PACIII2020POO\Unidad 2\16-abstract\16-abstract\obj\Debug\_16_abstract.Properties.Resources.resources
+C:\Practicas\PACIII2020POO\Unidad 2\16-abstract\16-abstract\obj\Debug\16-abstract.csproj.GenerateResource.cache
+C:\Practicas\PACIII2020POO\Unidad 2\16-abstract\16-abstract\obj\Debug\16-abstract.csproj.CoreCompileInputs.cache
+C:\Practicas\PACIII2020POO\Unidad 2\16-abstract\16-abstract\bin\Debug\16-abstract.exe.config
+C:\Practicas\PACIII2020POO\Unidad 2\16-abstract\16-abstract\bin\Debug\16-abstract.exe
+C:\Practicas\PACIII2020POO\Unidad 2\16-abstract\16-abstract\bin\Debug\16-abstract.pdb
+C:\Practicas\PACIII2020POO\Unidad 2\16-abstract\16-abstract\obj\Debug\16-abstract.exe
+C:\Practicas\PACIII2020POO\Unidad 2\16-abstract\16-abstract\obj\Debug\16-abstract.pdb
