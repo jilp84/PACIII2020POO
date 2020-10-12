@@ -1,0 +1,15 @@
+C:\Practicas\PACIII2020POO\Unidad 2\17-agenda\17-agenda\bin\Debug\17-agenda.exe.config
+C:\Practicas\PACIII2020POO\Unidad 2\17-agenda\17-agenda\bin\Debug\17-agenda.exe
+C:\Practicas\PACIII2020POO\Unidad 2\17-agenda\17-agenda\bin\Debug\17-agenda.pdb
+C:\Practicas\PACIII2020POO\Unidad 2\17-agenda\17-agenda\bin\Debug\EntityFramework.dll
+C:\Practicas\PACIII2020POO\Unidad 2\17-agenda\17-agenda\bin\Debug\EntityFramework.SqlServer.dll
+C:\Practicas\PACIII2020POO\Unidad 2\17-agenda\17-agenda\bin\Debug\EntityFramework.xml
+C:\Practicas\PACIII2020POO\Unidad 2\17-agenda\17-agenda\bin\Debug\EntityFramework.SqlServer.xml
+C:\Practicas\PACIII2020POO\Unidad 2\17-agenda\17-agenda\obj\Debug\_17_agenda.Migrations.CreacionInicial.resources
+C:\Practicas\PACIII2020POO\Unidad 2\17-agenda\17-agenda\obj\Debug\_17_agenda.Migrations.AgregadoDireccionPersona.resources
+C:\Practicas\PACIII2020POO\Unidad 2\17-agenda\17-agenda\obj\Debug\_17_agenda.Properties.Resources.resources
+C:\Practicas\PACIII2020POO\Unidad 2\17-agenda\17-agenda\obj\Debug\17-agenda.csproj.GenerateResource.cache
+C:\Practicas\PACIII2020POO\Unidad 2\17-agenda\17-agenda\obj\Debug\17-agenda.csproj.CoreCompileInputs.cache
+C:\Practicas\PACIII2020POO\Unidad 2\17-agenda\17-agenda\obj\Debug\17-agenda.csproj.CopyComplete
+C:\Practicas\PACIII2020POO\Unidad 2\17-agenda\17-agenda\obj\Debug\17-agenda.exe
+C:\Practicas\PACIII2020POO\Unidad 2\17-agenda\17-agenda\obj\Debug\17-agenda.pdb
