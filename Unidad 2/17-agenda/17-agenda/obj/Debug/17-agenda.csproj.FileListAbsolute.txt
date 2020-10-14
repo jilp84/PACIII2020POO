@@ -13,3 +13,9 @@ C:\Practicas\PACIII2020POO\Unidad 2\17-agenda\17-agenda\obj\Debug\17-agenda.cspr
 C:\Practicas\PACIII2020POO\Unidad 2\17-agenda\17-agenda\obj\Debug\17-agenda.csproj.CopyComplete
 C:\Practicas\PACIII2020POO\Unidad 2\17-agenda\17-agenda\obj\Debug\17-agenda.exe
 C:\Practicas\PACIII2020POO\Unidad 2\17-agenda\17-agenda\obj\Debug\17-agenda.pdb
+C:\Practicas\PACIII2020POO\Unidad 2\17-agenda\17-agenda\bin\Debug\MetroFramework.dll
+C:\Practicas\PACIII2020POO\Unidad 2\17-agenda\17-agenda\bin\Debug\MetroFramework.Fonts.dll
+C:\Practicas\PACIII2020POO\Unidad 2\17-agenda\17-agenda\obj\Debug\17-agenda.csprojAssemblyReference.cache
+C:\Practicas\PACIII2020POO\Unidad 2\17-agenda\17-agenda\obj\Debug\_17_agenda.Views.Persona.FrmPersonasList.resources
+C:\Practicas\PACIII2020POO\Unidad 2\17-agenda\17-agenda\obj\Debug\_17_agenda.Views.Persona.FrmPersonaAdd.resources
+C:\Practicas\PACIII2020POO\Unidad 2\17-agenda\17-agenda\obj\Debug\_17_agenda.Views.Persona.FrmPersonaEdit.resources

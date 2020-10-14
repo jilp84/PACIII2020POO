@@ -14,6 +14,7 @@ namespace _17_agenda.Models
         public string PersonaNombres { get; set; }
         public string PersonaApellidos { get; set; }
         public string PersonaDireccion { get; set; }
+        public string PersonaGenero { get; set; }
 
         
     }

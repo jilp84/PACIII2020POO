@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _17_agenda.Views.Persona;
+using System;
 using System.Data.Entity;
 using System.Windows.Forms;
 
@@ -18,7 +19,7 @@ namespace _17_agenda
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new FrmPersonasList());
         }
     }
 }
