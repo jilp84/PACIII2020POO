@@ -1,4 +1,5 @@
-﻿using _17_agenda.Models;
+﻿using _17_agenda.Controllers;
+using _17_agenda.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,17 +14,26 @@ namespace _17_agenda.Views.Persona
 {
     public partial class FrmPersonasList : MetroFramework.Forms.MetroForm
     {
-        AgendaContext db;
+        PersonaController Personas;
         public FrmPersonasList()
         {
             InitializeComponent();
-            db = new AgendaContext();
-            var personas = db.Personas.ToList();
+
+            ActualizarDatos();
+
             //MessageBox.Show("Total de Registros: " + personas.Count);
 
             txtBuscar.Text = "A";
             txtBuscar.Text = "";
 
+        }
+
+        private void ActualizarDatos() 
+        {
+            Personas = new PersonaController();
+            var personas = Personas.GetPersonas(txtBuscar.Text);
+            dgDatos.DataSource = personas;
+        
         }
 
         private void btnNuevo_Click(object sender, EventArgs e)
@@ -32,8 +42,13 @@ namespace _17_agenda.Views.Persona
 
             add.ShowDialog();
             add.Dispose();
+            ActualizarDatos();
 
+        }
 
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            ActualizarDatos();
         }
     }
 }

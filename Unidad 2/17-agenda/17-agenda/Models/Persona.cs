@@ -11,9 +11,17 @@ namespace _17_agenda.Models
     {
         [Key]
         public int PersonaId { get; set; }
+
+        [MaxLength(40)]
         public string PersonaNombres { get; set; }
+        
+        [MaxLength(40)]
         public string PersonaApellidos { get; set; }
+        
+        [MaxLength(150)]
         public string PersonaDireccion { get; set; }
+        
+        [MaxLength(1)]
         public string PersonaGenero { get; set; }
 
         

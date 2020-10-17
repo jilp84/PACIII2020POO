@@ -52,7 +52,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgDatos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgDatos.Location = new System.Drawing.Point(23, 148);
+            this.dgDatos.Location = new System.Drawing.Point(10, 148);
             this.dgDatos.Name = "dgDatos";
             this.dgDatos.Size = new System.Drawing.Size(754, 279);
             this.dgDatos.TabIndex = 6;
@@ -66,6 +66,7 @@
             this.btnBuscar.TileImage = global::_17_agenda.Properties.Resources.search_16px;
             this.btnBuscar.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnBuscar.UseTileImage = true;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // btnBorrar
             // 
