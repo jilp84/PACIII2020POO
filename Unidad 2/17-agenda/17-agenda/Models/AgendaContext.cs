@@ -9,8 +9,8 @@ namespace _17_agenda.Models
 {
     public class AgendaContext : DbContext
     {
-        public AgendaContext() : base(@"Data Source = DESKTOP-AJ80QGS;
-                                        Initial Catalog = AgendaEF;
+        public AgendaContext() : base(@"Data Source = PALEWORKS;
+                                        Initial Catalog = AgendaEF2;
                                         User Id = sa;
                                         Password = 1234;")
         {

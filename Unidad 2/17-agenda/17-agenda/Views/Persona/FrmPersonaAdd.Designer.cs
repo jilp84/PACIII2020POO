@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.lblNombres = new MetroFramework.Controls.MetroLabel();
             this.txtNombres = new MetroFramework.Controls.MetroTextBox();
             this.txtApellidos = new MetroFramework.Controls.MetroTextBox();
@@ -39,6 +40,8 @@
             this.txtDireccion = new MetroFramework.Controls.MetroTextBox();
             this.btnGuardar = new MetroFramework.Controls.MetroButton();
             this.btnCancelar = new MetroFramework.Controls.MetroButton();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // lblNombres
@@ -57,6 +60,8 @@
             this.txtNombres.PromptText = "Ingrese los nombres de la persona";
             this.txtNombres.Size = new System.Drawing.Size(208, 23);
             this.txtNombres.TabIndex = 1;
+            this.txtNombres.Validating += new System.ComponentModel.CancelEventHandler(this.txtNombres_Validating);
+            this.txtNombres.Validated += new System.EventHandler(this.txtNombres_Validated);
             // 
             // txtApellidos
             // 
@@ -65,6 +70,8 @@
             this.txtApellidos.PromptText = "Ingrese los apellidos de la persona";
             this.txtApellidos.Size = new System.Drawing.Size(208, 23);
             this.txtApellidos.TabIndex = 3;
+            this.txtApellidos.Validating += new System.ComponentModel.CancelEventHandler(this.txtApellidos_Validating);
+            this.txtApellidos.Validated += new System.EventHandler(this.txtApellidos_Validated);
             // 
             // lblApellidos
             // 
@@ -131,6 +138,7 @@
             this.btnGuardar.Size = new System.Drawing.Size(75, 23);
             this.btnGuardar.TabIndex = 9;
             this.btnGuardar.Text = "Guardar";
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // btnCancelar
             // 
@@ -139,6 +147,10 @@
             this.btnCancelar.Size = new System.Drawing.Size(75, 23);
             this.btnCancelar.TabIndex = 10;
             this.btnCancelar.Text = "Cancelar";
+            // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
             // 
             // FrmPersonaAdd
             // 
@@ -161,6 +173,7 @@
             this.Name = "FrmPersonaAdd";
             this.Resizable = false;
             this.Text = "Agregar Persona";
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -179,5 +192,6 @@
         private MetroFramework.Controls.MetroTextBox txtDireccion;
         private MetroFramework.Controls.MetroButton btnGuardar;
         private MetroFramework.Controls.MetroButton btnCancelar;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }

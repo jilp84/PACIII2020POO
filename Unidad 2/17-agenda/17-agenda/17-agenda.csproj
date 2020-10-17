@@ -66,6 +66,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\PersonaController.cs" />
     <Compile Include="Views\Persona\FrmPersonaAdd.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -154,9 +155,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="MetroFramework.txt" />
     <None Include="Resources\search-16px.png" />
