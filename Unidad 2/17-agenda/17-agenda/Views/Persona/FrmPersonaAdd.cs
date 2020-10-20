@@ -86,6 +86,7 @@ namespace _17_agenda.Views.Persona
             if (persona.Add(p))
             {
                 MessageBox.Show("Persona agregada correctamente.");
+                persona.Dispose();
                 this.Close();
             }
             else

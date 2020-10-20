@@ -60,10 +60,11 @@
             // 
             this.tabPrincipal.Controls.Add(this.tabDatosGenerales);
             this.tabPrincipal.Controls.Add(this.tabContacto);
-            this.tabPrincipal.Location = new System.Drawing.Point(11, 63);
+            this.tabPrincipal.Location = new System.Drawing.Point(16, 97);
+            this.tabPrincipal.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabPrincipal.Name = "tabPrincipal";
-            this.tabPrincipal.SelectedIndex = 1;
-            this.tabPrincipal.Size = new System.Drawing.Size(677, 391);
+            this.tabPrincipal.SelectedIndex = 0;
+            this.tabPrincipal.Size = new System.Drawing.Size(1016, 602);
             this.tabPrincipal.TabIndex = 1;
             // 
             // tabDatosGenerales
@@ -82,44 +83,52 @@
             this.tabDatosGenerales.Controls.Add(this.txtId);
             this.tabDatosGenerales.Controls.Add(this.lblId);
             this.tabDatosGenerales.HorizontalScrollbarBarColor = true;
-            this.tabDatosGenerales.Location = new System.Drawing.Point(4, 35);
+            this.tabDatosGenerales.HorizontalScrollbarSize = 15;
+            this.tabDatosGenerales.Location = new System.Drawing.Point(4, 39);
+            this.tabDatosGenerales.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabDatosGenerales.Name = "tabDatosGenerales";
-            this.tabDatosGenerales.Size = new System.Drawing.Size(669, 352);
+            this.tabDatosGenerales.Size = new System.Drawing.Size(1008, 559);
             this.tabDatosGenerales.TabIndex = 0;
             this.tabDatosGenerales.Text = "Datos Generales";
             this.tabDatosGenerales.VerticalScrollbarBarColor = true;
+            this.tabDatosGenerales.VerticalScrollbarSize = 15;
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(214, 243);
+            this.btnCancelar.Location = new System.Drawing.Point(321, 374);
+            this.btnCancelar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(75, 23);
+            this.btnCancelar.Size = new System.Drawing.Size(112, 35);
             this.btnCancelar.TabIndex = 21;
             this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // btnGuardar
             // 
-            this.btnGuardar.Enabled = false;
-            this.btnGuardar.Location = new System.Drawing.Point(133, 243);
+            this.btnGuardar.Location = new System.Drawing.Point(200, 374);
+            this.btnGuardar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(75, 23);
+            this.btnGuardar.Size = new System.Drawing.Size(112, 35);
             this.btnGuardar.TabIndex = 20;
-            this.btnGuardar.Text = "Guardar";
+            this.btnGuardar.Text = "Borrar";
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // txtDireccion
             // 
             this.txtDireccion.Enabled = false;
-            this.txtDireccion.Location = new System.Drawing.Point(81, 137);
+            this.txtDireccion.Location = new System.Drawing.Point(122, 211);
+            this.txtDireccion.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtDireccion.Multiline = true;
             this.txtDireccion.Name = "txtDireccion";
             this.txtDireccion.PromptText = "Ingrese la dirección de la persona";
-            this.txtDireccion.Size = new System.Drawing.Size(208, 100);
+            this.txtDireccion.Size = new System.Drawing.Size(312, 154);
             this.txtDireccion.TabIndex = 19;
             // 
             // lblDireccion
             // 
             this.lblDireccion.AutoSize = true;
-            this.lblDireccion.Location = new System.Drawing.Point(13, 137);
+            this.lblDireccion.Location = new System.Drawing.Point(20, 211);
+            this.lblDireccion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDireccion.Name = "lblDireccion";
             this.lblDireccion.Size = new System.Drawing.Size(66, 19);
             this.lblDireccion.TabIndex = 18;
@@ -129,7 +138,8 @@
             // 
             this.rbtnHombre.AutoSize = true;
             this.rbtnHombre.Enabled = false;
-            this.rbtnHombre.Location = new System.Drawing.Point(141, 112);
+            this.rbtnHombre.Location = new System.Drawing.Point(212, 172);
+            this.rbtnHombre.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.rbtnHombre.Name = "rbtnHombre";
             this.rbtnHombre.Size = new System.Drawing.Size(67, 15);
             this.rbtnHombre.TabIndex = 17;
@@ -141,7 +151,8 @@
             // 
             this.rbtnMujer.AutoSize = true;
             this.rbtnMujer.Enabled = false;
-            this.rbtnMujer.Location = new System.Drawing.Point(81, 112);
+            this.rbtnMujer.Location = new System.Drawing.Point(122, 172);
+            this.rbtnMujer.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.rbtnMujer.Name = "rbtnMujer";
             this.rbtnMujer.Size = new System.Drawing.Size(54, 15);
             this.rbtnMujer.TabIndex = 16;
@@ -152,7 +163,8 @@
             // lblGenero
             // 
             this.lblGenero.AutoSize = true;
-            this.lblGenero.Location = new System.Drawing.Point(13, 108);
+            this.lblGenero.Location = new System.Drawing.Point(20, 166);
+            this.lblGenero.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblGenero.Name = "lblGenero";
             this.lblGenero.Size = new System.Drawing.Size(55, 19);
             this.lblGenero.TabIndex = 15;
@@ -161,16 +173,18 @@
             // txtApellidos
             // 
             this.txtApellidos.Enabled = false;
-            this.txtApellidos.Location = new System.Drawing.Point(81, 83);
+            this.txtApellidos.Location = new System.Drawing.Point(122, 128);
+            this.txtApellidos.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtApellidos.Name = "txtApellidos";
             this.txtApellidos.PromptText = "Ingrese los apellidos de la persona";
-            this.txtApellidos.Size = new System.Drawing.Size(208, 23);
+            this.txtApellidos.Size = new System.Drawing.Size(312, 35);
             this.txtApellidos.TabIndex = 14;
             // 
             // lblApellidos
             // 
             this.lblApellidos.AutoSize = true;
-            this.lblApellidos.Location = new System.Drawing.Point(13, 83);
+            this.lblApellidos.Location = new System.Drawing.Point(20, 128);
+            this.lblApellidos.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblApellidos.Name = "lblApellidos";
             this.lblApellidos.Size = new System.Drawing.Size(66, 19);
             this.lblApellidos.TabIndex = 13;
@@ -179,16 +193,18 @@
             // txtNombres
             // 
             this.txtNombres.Enabled = false;
-            this.txtNombres.Location = new System.Drawing.Point(81, 54);
+            this.txtNombres.Location = new System.Drawing.Point(122, 83);
+            this.txtNombres.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtNombres.Name = "txtNombres";
             this.txtNombres.PromptText = "Ingrese los nombres de la persona";
-            this.txtNombres.Size = new System.Drawing.Size(208, 23);
+            this.txtNombres.Size = new System.Drawing.Size(312, 35);
             this.txtNombres.TabIndex = 12;
             // 
             // lblNombres
             // 
             this.lblNombres.AutoSize = true;
-            this.lblNombres.Location = new System.Drawing.Point(13, 54);
+            this.lblNombres.Location = new System.Drawing.Point(20, 83);
+            this.lblNombres.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNombres.Name = "lblNombres";
             this.lblNombres.Size = new System.Drawing.Size(62, 19);
             this.lblNombres.TabIndex = 11;
@@ -197,15 +213,17 @@
             // txtId
             // 
             this.txtId.Enabled = false;
-            this.txtId.Location = new System.Drawing.Point(81, 25);
+            this.txtId.Location = new System.Drawing.Point(122, 38);
+            this.txtId.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtId.Name = "txtId";
-            this.txtId.Size = new System.Drawing.Size(208, 23);
+            this.txtId.Size = new System.Drawing.Size(312, 35);
             this.txtId.TabIndex = 3;
             // 
             // lblId
             // 
             this.lblId.AutoSize = true;
-            this.lblId.Location = new System.Drawing.Point(13, 25);
+            this.lblId.Location = new System.Drawing.Point(20, 38);
+            this.lblId.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblId.Name = "lblId";
             this.lblId.Size = new System.Drawing.Size(23, 19);
             this.lblId.TabIndex = 2;
@@ -220,19 +238,23 @@
             this.tabContacto.Controls.Add(this.lblContacto);
             this.tabContacto.Controls.Add(this.dgDatos);
             this.tabContacto.HorizontalScrollbarBarColor = true;
-            this.tabContacto.Location = new System.Drawing.Point(4, 35);
+            this.tabContacto.HorizontalScrollbarSize = 15;
+            this.tabContacto.Location = new System.Drawing.Point(4, 39);
+            this.tabContacto.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabContacto.Name = "tabContacto";
-            this.tabContacto.Size = new System.Drawing.Size(669, 352);
+            this.tabContacto.Size = new System.Drawing.Size(1008, 559);
             this.tabContacto.TabIndex = 1;
             this.tabContacto.Text = "Contactos";
             this.tabContacto.VerticalScrollbarBarColor = true;
+            this.tabContacto.VerticalScrollbarSize = 15;
             // 
             // btnAgregar
             // 
             this.btnAgregar.Enabled = false;
-            this.btnAgregar.Location = new System.Drawing.Point(583, 24);
+            this.btnAgregar.Location = new System.Drawing.Point(874, 37);
+            this.btnAgregar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(83, 29);
+            this.btnAgregar.Size = new System.Drawing.Size(124, 45);
             this.btnAgregar.TabIndex = 17;
             this.btnAgregar.Text = "Agregar";
             // 
@@ -245,15 +267,17 @@
             "Correo",
             "Telefono Fijo",
             "Celular"});
-            this.cmbTipoContacto.Location = new System.Drawing.Point(408, 24);
+            this.cmbTipoContacto.Location = new System.Drawing.Point(612, 37);
+            this.cmbTipoContacto.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cmbTipoContacto.Name = "cmbTipoContacto";
-            this.cmbTipoContacto.Size = new System.Drawing.Size(169, 29);
+            this.cmbTipoContacto.Size = new System.Drawing.Size(252, 29);
             this.cmbTipoContacto.TabIndex = 16;
             // 
             // lblTipoContacto
             // 
             this.lblTipoContacto.AutoSize = true;
-            this.lblTipoContacto.Location = new System.Drawing.Point(287, 28);
+            this.lblTipoContacto.Location = new System.Drawing.Point(430, 43);
+            this.lblTipoContacto.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTipoContacto.Name = "lblTipoContacto";
             this.lblTipoContacto.Size = new System.Drawing.Size(114, 19);
             this.lblTipoContacto.TabIndex = 15;
@@ -262,17 +286,19 @@
             // txtContacto
             // 
             this.txtContacto.Enabled = false;
-            this.txtContacto.Location = new System.Drawing.Point(72, 24);
+            this.txtContacto.Location = new System.Drawing.Point(108, 37);
+            this.txtContacto.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtContacto.Multiline = true;
             this.txtContacto.Name = "txtContacto";
             this.txtContacto.PromptText = "Ingrese un numero y correo...";
-            this.txtContacto.Size = new System.Drawing.Size(208, 29);
+            this.txtContacto.Size = new System.Drawing.Size(312, 45);
             this.txtContacto.TabIndex = 14;
             // 
             // lblContacto
             // 
             this.lblContacto.AutoSize = true;
-            this.lblContacto.Location = new System.Drawing.Point(4, 28);
+            this.lblContacto.Location = new System.Drawing.Point(6, 43);
+            this.lblContacto.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblContacto.Name = "lblContacto";
             this.lblContacto.Size = new System.Drawing.Size(65, 19);
             this.lblContacto.TabIndex = 13;
@@ -281,20 +307,24 @@
             // dgDatos
             // 
             this.dgDatos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgDatos.Location = new System.Drawing.Point(3, 57);
+            this.dgDatos.Location = new System.Drawing.Point(4, 88);
+            this.dgDatos.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dgDatos.Name = "dgDatos";
-            this.dgDatos.Size = new System.Drawing.Size(663, 294);
+            this.dgDatos.RowHeadersWidth = 62;
+            this.dgDatos.Size = new System.Drawing.Size(994, 452);
             this.dgDatos.TabIndex = 2;
             // 
             // FrmPersonaDelete
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(702, 480);
+            this.ClientSize = new System.Drawing.Size(1053, 738);
             this.Controls.Add(this.tabPrincipal);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmPersonaDelete";
+            this.Padding = new System.Windows.Forms.Padding(30, 92, 30, 31);
             this.Resizable = false;
             this.Text = "Borrar Persona";
             this.tabPrincipal.ResumeLayout(false);

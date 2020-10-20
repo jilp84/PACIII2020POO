@@ -42,3 +42,5 @@ C:\Users\jocpa\source\repos\PACIII2020POO\Unidad 2\17-agenda\17-agenda\obj\Debug
 C:\Users\jocpa\source\repos\PACIII2020POO\Unidad 2\17-agenda\17-agenda\obj\Debug\17-agenda.exe
 C:\Users\jocpa\source\repos\PACIII2020POO\Unidad 2\17-agenda\17-agenda\obj\Debug\17-agenda.pdb
 C:\Users\jocpa\source\repos\PACIII2020POO\Unidad 2\17-agenda\17-agenda\obj\Debug\17-agenda.csprojAssemblyReference.cache
+C:\Practicas\PACIII2020POO\Unidad 2\17-agenda\17-agenda\obj\Debug\_17_agenda.Views.Persona.FrmPersonaDelete.resources
+C:\Practicas\PACIII2020POO\Unidad 2\17-agenda\17-agenda\obj\Debug\_17_agenda.Views.Persona.FrmPersonaDetails.resources

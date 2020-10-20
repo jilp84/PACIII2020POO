@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data.Entity;
+using System.Data.Common;
 
 namespace _17_agenda.Controllers
 {
@@ -28,6 +30,11 @@ namespace _17_agenda.Controllers
             return personas;
         }
 
+        public Persona GetPersona(int Id) 
+        {
+            return db.Personas.Find(Id);
+        }
+
         public bool Add(Persona persona) 
         {
             try
@@ -40,11 +47,42 @@ namespace _17_agenda.Controllers
             catch (Exception)
             {
                 return false;
-            }
-
-            
+            }            
         }
 
+        public bool Edit(Persona persona) 
+        {
+            try
+            {
+                db.Entry(persona).State = EntityState.Modified;
+                db.SaveChanges();
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+            }            
+        }
+
+        public bool Delete(int Id)
+        {
+            try
+            {
+                var persona = db.Personas.Find(Id);
+                db.Personas.Remove(persona);
+                db.SaveChanges();
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+        }
+
+        public void Dispose() 
+        {
+            db.Dispose();
+        }
 
     }
 }

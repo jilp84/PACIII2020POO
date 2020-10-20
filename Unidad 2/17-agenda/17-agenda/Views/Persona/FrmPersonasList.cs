@@ -50,5 +50,49 @@ namespace _17_agenda.Views.Persona
         {
             ActualizarDatos();
         }
+
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
+            var p = Personas.GetPersona(
+                Convert.ToInt32(dgDatos.CurrentRow.Cells[0].Value.ToString()));
+
+            if (p != null) 
+            {
+                FrmPersonaEdit edit = new FrmPersonaEdit(p);
+                edit.ShowDialog();
+                edit.Dispose();
+                ActualizarDatos();
+            }
+
+        }
+
+        private void btnDetalle_Click(object sender, EventArgs e)
+        {
+            var p = Personas.GetPersona(
+                Convert.ToInt32(dgDatos.CurrentRow.Cells[0].Value.ToString()));
+
+            if (p != null)
+            {
+                FrmPersonaDetails details = new FrmPersonaDetails(p);
+                details.ShowDialog();
+                details.Dispose();
+                
+            }
+
+        }
+
+        private void btnBorrar_Click(object sender, EventArgs e)
+        {
+            var p = Personas.GetPersona(
+                Convert.ToInt32(dgDatos.CurrentRow.Cells[0].Value.ToString()));
+
+            if (p != null)
+            {
+                FrmPersonaDelete delete = new FrmPersonaDelete(p);
+                delete.ShowDialog();
+                delete.Dispose();
+                ActualizarDatos();
+            }
+        }
     }
 }
