@@ -1,4 +1,5 @@
 ﻿using _17_agenda.Controllers;
+using _17_agenda.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -16,12 +17,16 @@ namespace _17_agenda.Views.Persona
         private Models.Persona p_persona;
         private readonly PersonaController persona;
 
+        private ContactoController contacto;
+
         public FrmPersonaEdit(Models.Persona persona)
         {
             InitializeComponent();
 
             this.persona = new PersonaController();
             this.p_persona = persona;
+
+            ActualizarDatos();
 
             if (p_persona.PersonaGenero == "F")
             {
@@ -41,6 +46,14 @@ namespace _17_agenda.Views.Persona
             tabPrincipal.SelectTab(0);
 
         }
+
+        private void ActualizarDatos() 
+        {
+            contacto = new ContactoController();
+            var cont = contacto.GetContactos(p_persona);
+            dgDatos.DataSource = cont;
+        }
+
 
         private void btnCancelar_Click(object sender, EventArgs e)
         {
@@ -80,6 +93,26 @@ namespace _17_agenda.Views.Persona
             {
                 MessageBox.Show("Error para guardar a la persona.");
             }
+        }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+            var contacto = new Contacto 
+            {
+                ContactoDescripcion = txtContacto.Text,
+                Tipo = cmbTipoContacto.Text,
+                PersonaId = p_persona.PersonaId
+            };
+
+            if (this.contacto.Add(contacto))
+            {                
+                ActualizarDatos();
+            }
+            else
+            {
+                MessageBox.Show("Error al agregar el contacto");
+            }
+
         }
     }
 }

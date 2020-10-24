@@ -63,7 +63,7 @@
             this.tabPrincipal.Location = new System.Drawing.Point(34, 114);
             this.tabPrincipal.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabPrincipal.Name = "tabPrincipal";
-            this.tabPrincipal.SelectedIndex = 0;
+            this.tabPrincipal.SelectedIndex = 1;
             this.tabPrincipal.Size = new System.Drawing.Size(1016, 602);
             this.tabPrincipal.TabIndex = 0;
             // 
@@ -251,6 +251,7 @@
             this.btnAgregar.Size = new System.Drawing.Size(124, 45);
             this.btnAgregar.TabIndex = 17;
             this.btnAgregar.Text = "Agregar";
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // cmbTipoContacto
             // 

@@ -18,6 +18,8 @@ namespace _17_agenda.Models
         }
 
         public virtual DbSet<Persona> Personas { get; set; }
+        public virtual DbSet<Contacto> Contactos { get; set; }
+
 
     }
 }
