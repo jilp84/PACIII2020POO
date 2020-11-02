@@ -1,0 +1,15 @@
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStock\obj\Debug\CopanStock.csprojAssemblyReference.cache
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStock\obj\Debug\CopanStock.Properties.Resources.resources
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStock\obj\Debug\CopanStock.Views.Home.FrmHome.resources
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStock\obj\Debug\CopanStock.csproj.GenerateResource.cache
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStock\obj\Debug\CopanStock.csproj.CoreCompileInputs.cache
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStock\bin\Debug\CopanStock.exe.config
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStock\bin\Debug\CopanStock.exe
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStock\bin\Debug\CopanStock.pdb
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStock\bin\Debug\CopanStockBLL.dll
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStock\bin\Debug\CopanStockDAL.dll
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStock\bin\Debug\CopanStockBLL.pdb
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStock\bin\Debug\CopanStockDAL.pdb
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStock\obj\Debug\CopanStock.csproj.CopyComplete
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStock\obj\Debug\CopanStock.exe
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStock\obj\Debug\CopanStock.pdb

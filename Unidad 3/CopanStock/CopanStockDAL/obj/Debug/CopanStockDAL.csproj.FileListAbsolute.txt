@@ -1,0 +1,6 @@
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStockDAL\bin\Debug\CopanStockDAL.dll
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStockDAL\bin\Debug\CopanStockDAL.pdb
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStockDAL\obj\Debug\CopanStockDAL.csprojAssemblyReference.cache
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStockDAL\obj\Debug\CopanStockDAL.csproj.CoreCompileInputs.cache
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStockDAL\obj\Debug\CopanStockDAL.dll
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStockDAL\obj\Debug\CopanStockDAL.pdb

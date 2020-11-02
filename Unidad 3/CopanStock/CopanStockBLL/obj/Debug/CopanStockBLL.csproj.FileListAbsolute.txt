@@ -1,0 +1,9 @@
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStockBLL\bin\Debug\CopanStockBLL.dll
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStockBLL\bin\Debug\CopanStockBLL.pdb
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStockBLL\bin\Debug\CopanStockDAL.dll
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStockBLL\bin\Debug\CopanStockDAL.pdb
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStockBLL\obj\Debug\CopanStockBLL.csprojAssemblyReference.cache
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStockBLL\obj\Debug\CopanStockBLL.csproj.CoreCompileInputs.cache
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStockBLL\obj\Debug\CopanStockBLL.csproj.CopyComplete
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStockBLL\obj\Debug\CopanStockBLL.dll
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStockBLL\obj\Debug\CopanStockBLL.pdb
