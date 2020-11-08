@@ -13,3 +13,8 @@ C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStock\bin\Debug\CopanStockDA
 C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStock\obj\Debug\CopanStock.csproj.CopyComplete
 C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStock\obj\Debug\CopanStock.exe
 C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStock\obj\Debug\CopanStock.pdb
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStock\bin\Debug\JacksiroKe.MdiTabCtrl.dll
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStock\bin\Debug\EntityFramework.dll
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStock\bin\Debug\CopanStockDAL.dll.config
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStock\bin\Debug\EntityFramework.xml
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStock\obj\Debug\CopanStock.Views.Sesion.FrmIniciarSesion.resources

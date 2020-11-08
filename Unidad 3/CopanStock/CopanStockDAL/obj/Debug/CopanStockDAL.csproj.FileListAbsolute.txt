@@ -4,3 +4,9 @@ C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStockDAL\obj\Debug\CopanStoc
 C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStockDAL\obj\Debug\CopanStockDAL.csproj.CoreCompileInputs.cache
 C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStockDAL\obj\Debug\CopanStockDAL.dll
 C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStockDAL\obj\Debug\CopanStockDAL.pdb
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStockDAL\bin\Debug\CopanStockDAL.dll.config
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStockDAL\bin\Debug\EntityFramework.dll
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStockDAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStockDAL\bin\Debug\EntityFramework.xml
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStockDAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStockDAL\obj\Debug\CopanStockDAL.csproj.CopyComplete

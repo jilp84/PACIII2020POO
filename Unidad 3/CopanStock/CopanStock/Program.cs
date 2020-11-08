@@ -1,4 +1,5 @@
 ﻿using CopanStock.Views.Home;
+using CopanStock.Views.Sesion;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +18,7 @@ namespace CopanStock
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmHome());
+            Application.Run(new FrmIniciarSesion());
         }
     }
 }
