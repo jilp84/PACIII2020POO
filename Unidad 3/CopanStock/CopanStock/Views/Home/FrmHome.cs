@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CopanStock.Views.Categorias;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,12 @@ namespace CopanStock.Views.Home
         public FrmHome()
         {
             InitializeComponent();
+        }
+
+        private void mnuCategorias_Click(object sender, EventArgs e)
+        {
+            FrmCategoriaList categorias = new FrmCategoriaList();
+            tabControl1.TabPages.Add(categorias);
         }
     }
 }

@@ -49,6 +49,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Views\Categorias\FrmCategoriaDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Categorias\FrmCategoriaDelete.Designer.cs">
+      <DependentUpon>FrmCategoriaDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Categorias\FrmCategoriaEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Categorias\FrmCategoriaEdit.Designer.cs">
+      <DependentUpon>FrmCategoriaEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Categorias\FrmCategoriaInsert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Categorias\FrmCategoriaInsert.Designer.cs">
+      <DependentUpon>FrmCategoriaInsert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Categorias\FrmCategoriaList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Categorias\FrmCategoriaList.Designer.cs">
+      <DependentUpon>FrmCategoriaList.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\Home\FrmHome.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,6 +97,18 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Views\Categorias\FrmCategoriaDelete.resx">
+      <DependentUpon>FrmCategoriaDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Categorias\FrmCategoriaEdit.resx">
+      <DependentUpon>FrmCategoriaEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Categorias\FrmCategoriaInsert.resx">
+      <DependentUpon>FrmCategoriaInsert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Categorias\FrmCategoriaList.resx">
+      <DependentUpon>FrmCategoriaList.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\Home\FrmHome.resx">
       <DependentUpon>FrmHome.cs</DependentUpon>
     </EmbeddedResource>
@@ -104,13 +140,49 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Views\Categorias\" />
+    <None Include="Resources\icon-nuevo-16px.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\externalizar-las-ventas-para-qué.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\lock-unlock-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-archivo-20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-procesos-20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-mantenieminto-20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-ayuda-20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-salir-20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-vender-20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-categoria-20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-edit-16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-borrar-16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-buscar-16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-guardar-16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-cancelar-16px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -18,3 +18,7 @@ C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStock\bin\Debug\EntityFramew
 C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStock\bin\Debug\CopanStockDAL.dll.config
 C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStock\bin\Debug\EntityFramework.xml
 C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStock\obj\Debug\CopanStock.Views.Sesion.FrmIniciarSesion.resources
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStock\obj\Debug\CopanStock.Views.Categorias.FrmCategoriaList.resources
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStock\obj\Debug\CopanStock.Views.Categorias.FrmCategoriaInsert.resources
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStock\obj\Debug\CopanStock.Views.Categorias.FrmCategoriaDelete.resources
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStock\obj\Debug\CopanStock.Views.Categorias.FrmCategoriaEdit.resources
