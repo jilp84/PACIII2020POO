@@ -84,6 +84,7 @@
     <Compile Include="VentaDetalle.cs">
       <DependentUpon>CopanStock.tt</DependentUpon>
     </Compile>
+    <Compile Include="ViewModels\CategoriaViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <EntityDeploy Include="CopanStock.edmx">

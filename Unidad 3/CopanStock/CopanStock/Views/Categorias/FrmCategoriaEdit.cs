@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CopanStockBLL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,13 +13,41 @@ namespace CopanStock.Views.Categorias
 {
     public partial class FrmCategoriaEdit : Form
     {
-        public FrmCategoriaEdit()
+        private CopanStockDAL.Cotegoria categoria;
+        private readonly CategoriaController controller;
+
+        public FrmCategoriaEdit(CopanStockDAL.Cotegoria categoria)
         {
             InitializeComponent();
+
+            this.controller = new CategoriaController();
+            this.categoria = categoria;
+
+            txtId.Text = categoria.CategoriaId.ToString();
+            txtCategoria.Text = categoria.CategoriaNombre;
         }
 
         private void btnGuardar_Click(object sender, EventArgs e)
-        {
+        {            
+
+            CopanStockDAL.Cotegoria categoria = new CopanStockDAL.Cotegoria 
+            {            
+                CategoriaId = this.categoria.CategoriaId,
+                CategoriaNombre = txtCategoria.Text
+            };
+
+
+            if (controller.Edit(categoria))
+            {
+                MessageBox.Show("Categoría editada correctamente.");
+                controller.Dispose();
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show("Error al editar la categoría.");
+            }
+
             this.Close();
         }
 

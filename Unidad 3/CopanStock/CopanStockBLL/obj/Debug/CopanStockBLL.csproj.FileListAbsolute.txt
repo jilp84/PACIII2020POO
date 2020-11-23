@@ -7,6 +7,5 @@ C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStockBLL\obj\Debug\CopanStoc
 C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStockBLL\obj\Debug\CopanStockBLL.csproj.CopyComplete
 C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStockBLL\obj\Debug\CopanStockBLL.dll
 C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStockBLL\obj\Debug\CopanStockBLL.pdb
-C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStockBLL\bin\Debug\EntityFramework.dll
 C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStockBLL\bin\Debug\CopanStockDAL.dll.config
 C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStockBLL\bin\Debug\EntityFramework.xml

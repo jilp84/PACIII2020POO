@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CopanStockBLL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,13 +13,34 @@ namespace CopanStock.Views.Categorias
 {
     public partial class FrmCategoriaInsert : Form
     {
+        private readonly CategoriaController controller;
+
         public FrmCategoriaInsert()
         {
             InitializeComponent();
+
+            controller = new CategoriaController();
+
         }
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
+            CopanStockDAL.Cotegoria categoria = new CopanStockDAL.Cotegoria
+            {
+                CategoriaNombre = txtCategoria.Text
+            };
+
+            if (controller.Add(categoria))
+            {
+                MessageBox.Show("Categoría creada correctamente.");
+                controller.Dispose();
+                this.Dispose();
+            }
+            else
+            {
+                MessageBox.Show("Error para guardar la categoría.");
+            }
+
             this.Close();
         }
 
