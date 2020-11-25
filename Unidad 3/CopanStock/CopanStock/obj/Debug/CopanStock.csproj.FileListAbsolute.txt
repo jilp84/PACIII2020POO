@@ -24,3 +24,7 @@ C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStock\obj\Debug\CopanStock.V
 C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStock\obj\Debug\CopanStock.Views.Categorias.FrmCategoriaEdit.resources
 C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStock\bin\Debug\EntityFramework.SqlServer.dll
 C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStock\bin\Debug\EntityFramework.SqlServer.xml
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStock\obj\Debug\CopanStock.Views.Producto.FrmProductoList.resources
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStock\obj\Debug\CopanStock.Views.Producto.FrmProductoInsert.resources
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStock\obj\Debug\CopanStock.Views.Producto.FrmProductoEdit.resources
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStock\obj\Debug\CopanStock.Views.Producto.FrmProductoDelete.resources

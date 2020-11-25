@@ -20,7 +20,7 @@ namespace CopanStockDAL
         public Nullable<int> VentaDetalleCantidad { get; set; }
         public Nullable<decimal> VentaDetallePrecio { get; set; }
     
-        public virtual Producto Producto { get; set; }
         public virtual Venta Venta { get; set; }
+        public virtual Producto Producto { get; set; }
     }
 }

@@ -183,6 +183,16 @@ namespace CopanStock.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icon_producto_20px {
+            get {
+                object obj = ResourceManager.GetObject("icon-producto-20px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icon_salir_20px {
             get {
                 object obj = ResourceManager.GetObject("icon-salir-20px", resourceCulture);

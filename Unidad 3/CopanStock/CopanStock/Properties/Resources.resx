@@ -133,14 +133,17 @@
   <data name="icon-borrar-16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-borrar-16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon-guardar-16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon-guardar-16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="icon-categoria-20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-categoria-20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon-edit-16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-edit-16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-cancelar-16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-cancelar-16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-buscar-16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-buscar-16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon-vender-20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-vender-20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -157,10 +160,10 @@
   <data name="icon-ayuda-20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-ayuda-20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon-buscar-16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon-buscar-16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icon-guardar-16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-guardar-16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon-cancelar-16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon-cancelar-16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icon-producto-20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-producto-20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

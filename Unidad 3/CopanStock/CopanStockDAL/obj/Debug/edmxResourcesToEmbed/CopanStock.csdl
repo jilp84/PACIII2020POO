@@ -14,19 +14,7 @@
     </Key>
     <Property Name="CategoriaId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="CategoriaNombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <NavigationProperty Name="Producto" Relationship="Self.FK_Producto_Cotegoria" FromRole="Cotegoria" ToRole="Producto" />
-  </EntityType>
-  <EntityType Name="Producto">
-    <Key>
-      <PropertyRef Name="ProductoId" />
-    </Key>
-    <Property Name="ProductoId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="ProductoNombre" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
-    <Property Name="ProductoPrecio" Type="Decimal" Precision="19" Scale="4" />
-    <Property Name="ProductoStock" Type="Int32" />
-    <Property Name="CategoriaId" Type="Int32" />
-    <NavigationProperty Name="Cotegoria" Relationship="Self.FK_Producto_Cotegoria" FromRole="Producto" ToRole="Cotegoria" />
-    <NavigationProperty Name="VentaDetalle" Relationship="Self.FK_VentaDetalle_Producto" FromRole="Producto" ToRole="VentaDetalle" />
+    <NavigationProperty Name="Producto" Relationship="CopanStockModel.FK_Producto_Cotegoria" FromRole="Cotegoria" ToRole="Producto" />
   </EntityType>
   <EntityType Name="Usuario">
     <Key>
@@ -60,8 +48,8 @@
     <Property Name="ProductoId" Type="Int32" />
     <Property Name="VentaDetalleCantidad" Type="Int32" />
     <Property Name="VentaDetallePrecio" Type="Decimal" Precision="19" Scale="4" />
-    <NavigationProperty Name="Producto" Relationship="Self.FK_VentaDetalle_Producto" FromRole="VentaDetalle" ToRole="Producto" />
     <NavigationProperty Name="Venta" Relationship="Self.FK_VentaDetalle_Venta" FromRole="VentaDetalle" ToRole="Venta" />
+    <NavigationProperty Name="Producto" Relationship="CopanStockModel.FK_VentaDetalle_Producto" FromRole="VentaDetalle" ToRole="Producto" />
   </EntityType>
   <Association Name="FK_Venta_Cliente">
     <End Role="Cliente" Type="Self.Cliente" Multiplicity="0..1" />
@@ -72,30 +60,6 @@
       </Principal>
       <Dependent Role="Venta">
         <PropertyRef Name="ClienteId" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
-  <Association Name="FK_Producto_Cotegoria">
-    <End Role="Cotegoria" Type="Self.Cotegoria" Multiplicity="0..1" />
-    <End Role="Producto" Type="Self.Producto" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="Cotegoria">
-        <PropertyRef Name="CategoriaId" />
-      </Principal>
-      <Dependent Role="Producto">
-        <PropertyRef Name="CategoriaId" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
-  <Association Name="FK_VentaDetalle_Producto">
-    <End Role="Producto" Type="Self.Producto" Multiplicity="0..1" />
-    <End Role="VentaDetalle" Type="Self.VentaDetalle" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="Producto">
-        <PropertyRef Name="ProductoId" />
-      </Principal>
-      <Dependent Role="VentaDetalle">
-        <PropertyRef Name="ProductoId" />
       </Dependent>
     </ReferentialConstraint>
   </Association>
@@ -126,21 +90,12 @@
   <EntityContainer Name="CopanStockEntities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="Cliente" EntityType="Self.Cliente" />
     <EntitySet Name="Cotegoria" EntityType="Self.Cotegoria" />
-    <EntitySet Name="Producto" EntityType="Self.Producto" />
     <EntitySet Name="Usuario" EntityType="Self.Usuario" />
     <EntitySet Name="Venta" EntityType="Self.Venta" />
     <EntitySet Name="VentaDetalle" EntityType="Self.VentaDetalle" />
     <AssociationSet Name="FK_Venta_Cliente" Association="Self.FK_Venta_Cliente">
       <End Role="Cliente" EntitySet="Cliente" />
       <End Role="Venta" EntitySet="Venta" />
-    </AssociationSet>
-    <AssociationSet Name="FK_Producto_Cotegoria" Association="Self.FK_Producto_Cotegoria">
-      <End Role="Cotegoria" EntitySet="Cotegoria" />
-      <End Role="Producto" EntitySet="Producto" />
-    </AssociationSet>
-    <AssociationSet Name="FK_VentaDetalle_Producto" Association="Self.FK_VentaDetalle_Producto">
-      <End Role="Producto" EntitySet="Producto" />
-      <End Role="VentaDetalle" EntitySet="VentaDetalle" />
     </AssociationSet>
     <AssociationSet Name="FK_Venta_Usuario" Association="Self.FK_Venta_Usuario">
       <End Role="Usuario" EntitySet="Usuario" />
@@ -150,5 +105,50 @@
       <End Role="Venta" EntitySet="Venta" />
       <End Role="VentaDetalle" EntitySet="VentaDetalle" />
     </AssociationSet>
+    <EntitySet Name="Producto" EntityType="CopanStockModel.Producto" />
+    <AssociationSet Name="FK_Producto_Cotegoria" Association="CopanStockModel.FK_Producto_Cotegoria">
+      <End Role="Cotegoria" EntitySet="Cotegoria" />
+      <End Role="Producto" EntitySet="Producto" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VentaDetalle_Producto" Association="CopanStockModel.FK_VentaDetalle_Producto">
+      <End Role="Producto" EntitySet="Producto" />
+      <End Role="VentaDetalle" EntitySet="VentaDetalle" />
+    </AssociationSet>
   </EntityContainer>
+  <EntityType Name="Producto">
+    <Key>
+      <PropertyRef Name="ProductoId" />
+    </Key>
+    <Property Name="ProductoId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductoNombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ProductoPrecio" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="ProductoStock" Type="Int32" />
+    <Property Name="CategoriaId" Type="Int32" />
+    <NavigationProperty Name="Cotegoria" Relationship="CopanStockModel.FK_Producto_Cotegoria" FromRole="Producto" ToRole="Cotegoria" />
+    <NavigationProperty Name="VentaDetalle" Relationship="CopanStockModel.FK_VentaDetalle_Producto" FromRole="Producto" ToRole="VentaDetalle" />
+  </EntityType>
+  <Association Name="FK_Producto_Cotegoria">
+    <End Type="CopanStockModel.Cotegoria" Role="Cotegoria" Multiplicity="0..1" />
+    <End Type="CopanStockModel.Producto" Role="Producto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cotegoria">
+        <PropertyRef Name="CategoriaId" />
+      </Principal>
+      <Dependent Role="Producto">
+        <PropertyRef Name="CategoriaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VentaDetalle_Producto">
+    <End Type="CopanStockModel.Producto" Role="Producto" Multiplicity="0..1" />
+    <End Type="CopanStockModel.VentaDetalle" Role="VentaDetalle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Producto">
+        <PropertyRef Name="ProductoId" />
+      </Principal>
+      <Dependent Role="VentaDetalle">
+        <PropertyRef Name="ProductoId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
 </Schema>

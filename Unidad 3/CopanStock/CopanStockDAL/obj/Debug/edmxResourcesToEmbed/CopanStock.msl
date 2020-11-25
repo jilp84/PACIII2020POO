@@ -17,17 +17,6 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="Producto">
-      <EntityTypeMapping TypeName="CopanStockModel.Producto">
-        <MappingFragment StoreEntitySet="Producto">
-          <ScalarProperty Name="ProductoId" ColumnName="ProductoId" />
-          <ScalarProperty Name="ProductoNombre" ColumnName="ProductoNombre" />
-          <ScalarProperty Name="ProductoPrecio" ColumnName="ProductoPrecio" />
-          <ScalarProperty Name="ProductoStock" ColumnName="ProductoStock" />
-          <ScalarProperty Name="CategoriaId" ColumnName="CategoriaId" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
     <EntitySetMapping Name="Usuario">
       <EntityTypeMapping TypeName="CopanStockModel.Usuario">
         <MappingFragment StoreEntitySet="Usuario">
@@ -57,6 +46,17 @@
           <ScalarProperty Name="ProductoId" ColumnName="ProductoId" />
           <ScalarProperty Name="VentaDetalleCantidad" ColumnName="VentaDetalleCantidad" />
           <ScalarProperty Name="VentaDetallePrecio" ColumnName="VentaDetallePrecio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Producto">
+      <EntityTypeMapping TypeName="CopanStockModel.Producto">
+        <MappingFragment StoreEntitySet="Producto">
+          <ScalarProperty Name="CategoriaId" ColumnName="CategoriaId" />
+          <ScalarProperty Name="ProductoStock" ColumnName="ProductoStock" />
+          <ScalarProperty Name="ProductoPrecio" ColumnName="ProductoPrecio" />
+          <ScalarProperty Name="ProductoNombre" ColumnName="ProductoNombre" />
+          <ScalarProperty Name="ProductoId" ColumnName="ProductoId" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

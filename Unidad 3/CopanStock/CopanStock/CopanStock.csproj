@@ -84,6 +84,30 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\Producto\FrmProductoDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Producto\FrmProductoDelete.Designer.cs">
+      <DependentUpon>FrmProductoDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Producto\FrmProductoEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Producto\FrmProductoEdit.Designer.cs">
+      <DependentUpon>FrmProductoEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Producto\FrmProductoInsert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Producto\FrmProductoInsert.Designer.cs">
+      <DependentUpon>FrmProductoInsert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Producto\FrmProductoList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Producto\FrmProductoList.Designer.cs">
+      <DependentUpon>FrmProductoList.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\Sesion\FrmIniciarSesion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,6 +138,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Home\FrmHome.resx">
       <DependentUpon>FrmHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Producto\FrmProductoDelete.resx">
+      <DependentUpon>FrmProductoDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Producto\FrmProductoEdit.resx">
+      <DependentUpon>FrmProductoEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Producto\FrmProductoInsert.resx">
+      <DependentUpon>FrmProductoInsert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Producto\FrmProductoList.resx">
+      <DependentUpon>FrmProductoList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Sesion\FrmIniciarSesion.resx">
       <DependentUpon>FrmIniciarSesion.cs</DependentUpon>
@@ -186,6 +222,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icon-cancelar-16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-producto-20px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
