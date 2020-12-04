@@ -86,6 +86,8 @@
     </Compile>
     <Compile Include="ViewModels\ProductoViewModel.cs" />
     <Compile Include="ViewModels\CategoriaViewModel.cs" />
+    <Compile Include="ViewModels\VentaDetalleViewModel.cs" />
+    <Compile Include="ViewModels\VentaViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <EntityDeploy Include="CopanStock.edmx">

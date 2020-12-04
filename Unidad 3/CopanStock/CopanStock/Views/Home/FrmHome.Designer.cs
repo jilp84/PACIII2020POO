@@ -30,8 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmHome));
             this.mnuPrincipal = new System.Windows.Forms.MenuStrip();
-            this.statusBar = new System.Windows.Forms.StatusStrip();
-            this.tabControl1 = new JacksiroKe.MdiTabCtrl.TabControl();
             this.mnuArchivo = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuSalir = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuProcesos = new System.Windows.Forms.ToolStripMenuItem();
@@ -40,6 +38,8 @@
             this.mnuCategorias = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuProductos = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuAyuda = new System.Windows.Forms.ToolStripMenuItem();
+            this.statusBar = new System.Windows.Forms.StatusStrip();
+            this.tabControl1 = new JacksiroKe.MdiTabCtrl.TabControl();
             this.mnuPrincipal.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -57,6 +57,72 @@
             this.mnuPrincipal.Size = new System.Drawing.Size(972, 32);
             this.mnuPrincipal.TabIndex = 0;
             this.mnuPrincipal.Text = "menuStrip1";
+            // 
+            // mnuArchivo
+            // 
+            this.mnuArchivo.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mnuSalir});
+            this.mnuArchivo.Image = global::CopanStock.Properties.Resources.icon_archivo_20px;
+            this.mnuArchivo.Name = "mnuArchivo";
+            this.mnuArchivo.Size = new System.Drawing.Size(97, 28);
+            this.mnuArchivo.Text = "Archivo";
+            // 
+            // mnuSalir
+            // 
+            this.mnuSalir.Image = global::CopanStock.Properties.Resources.icon_salir_20px;
+            this.mnuSalir.Name = "mnuSalir";
+            this.mnuSalir.Size = new System.Drawing.Size(121, 26);
+            this.mnuSalir.Text = "Salir";
+            // 
+            // mnuProcesos
+            // 
+            this.mnuProcesos.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mnuVender});
+            this.mnuProcesos.Image = global::CopanStock.Properties.Resources.icon_procesos_20px;
+            this.mnuProcesos.Name = "mnuProcesos";
+            this.mnuProcesos.Size = new System.Drawing.Size(105, 28);
+            this.mnuProcesos.Text = "Procesos";
+            // 
+            // mnuVender
+            // 
+            this.mnuVender.Image = global::CopanStock.Properties.Resources.icon_vender_20px;
+            this.mnuVender.Name = "mnuVender";
+            this.mnuVender.Size = new System.Drawing.Size(228, 30);
+            this.mnuVender.Text = "Vender";
+            this.mnuVender.Click += new System.EventHandler(this.mnuVender_Click);
+            // 
+            // mnuMantenimiento
+            // 
+            this.mnuMantenimiento.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mnuCategorias,
+            this.mnuProductos});
+            this.mnuMantenimiento.Image = global::CopanStock.Properties.Resources.icon_mantenieminto_20px;
+            this.mnuMantenimiento.Name = "mnuMantenimiento";
+            this.mnuMantenimiento.Size = new System.Drawing.Size(148, 28);
+            this.mnuMantenimiento.Text = "Mantenimiento";
+            // 
+            // mnuCategorias
+            // 
+            this.mnuCategorias.Image = global::CopanStock.Properties.Resources.icon_categoria_20px;
+            this.mnuCategorias.Name = "mnuCategorias";
+            this.mnuCategorias.Size = new System.Drawing.Size(163, 26);
+            this.mnuCategorias.Text = "Categorías";
+            this.mnuCategorias.Click += new System.EventHandler(this.mnuCategorias_Click);
+            // 
+            // mnuProductos
+            // 
+            this.mnuProductos.Image = global::CopanStock.Properties.Resources.icon_producto_20px;
+            this.mnuProductos.Name = "mnuProductos";
+            this.mnuProductos.Size = new System.Drawing.Size(163, 26);
+            this.mnuProductos.Text = "Productos";
+            this.mnuProductos.Click += new System.EventHandler(this.mnuProductos_Click);
+            // 
+            // mnuAyuda
+            // 
+            this.mnuAyuda.Image = global::CopanStock.Properties.Resources.icon_ayuda_20px;
+            this.mnuAyuda.Name = "mnuAyuda";
+            this.mnuAyuda.Size = new System.Drawing.Size(89, 28);
+            this.mnuAyuda.Text = "Ayuda";
             // 
             // statusBar
             // 
@@ -80,71 +146,6 @@
             this.tabControl1.TabCloseButtonImageDisabled = null;
             this.tabControl1.TabCloseButtonImageHot = null;
             this.tabControl1.TabIndex = 2;
-            // 
-            // mnuArchivo
-            // 
-            this.mnuArchivo.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mnuSalir});
-            this.mnuArchivo.Image = global::CopanStock.Properties.Resources.icon_archivo_20px;
-            this.mnuArchivo.Name = "mnuArchivo";
-            this.mnuArchivo.Size = new System.Drawing.Size(97, 28);
-            this.mnuArchivo.Text = "Archivo";
-            // 
-            // mnuSalir
-            // 
-            this.mnuSalir.Image = global::CopanStock.Properties.Resources.icon_salir_20px;
-            this.mnuSalir.Name = "mnuSalir";
-            this.mnuSalir.Size = new System.Drawing.Size(125, 30);
-            this.mnuSalir.Text = "Salir";
-            // 
-            // mnuProcesos
-            // 
-            this.mnuProcesos.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mnuVender});
-            this.mnuProcesos.Image = global::CopanStock.Properties.Resources.icon_procesos_20px;
-            this.mnuProcesos.Name = "mnuProcesos";
-            this.mnuProcesos.Size = new System.Drawing.Size(105, 28);
-            this.mnuProcesos.Text = "Procesos";
-            // 
-            // mnuVender
-            // 
-            this.mnuVender.Image = global::CopanStock.Properties.Resources.icon_vender_20px;
-            this.mnuVender.Name = "mnuVender";
-            this.mnuVender.Size = new System.Drawing.Size(142, 30);
-            this.mnuVender.Text = "Vender";
-            // 
-            // mnuMantenimiento
-            // 
-            this.mnuMantenimiento.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mnuCategorias,
-            this.mnuProductos});
-            this.mnuMantenimiento.Image = global::CopanStock.Properties.Resources.icon_mantenieminto_20px;
-            this.mnuMantenimiento.Name = "mnuMantenimiento";
-            this.mnuMantenimiento.Size = new System.Drawing.Size(148, 28);
-            this.mnuMantenimiento.Text = "Mantenimiento";
-            // 
-            // mnuCategorias
-            // 
-            this.mnuCategorias.Image = global::CopanStock.Properties.Resources.icon_categoria_20px;
-            this.mnuCategorias.Name = "mnuCategorias";
-            this.mnuCategorias.Size = new System.Drawing.Size(228, 30);
-            this.mnuCategorias.Text = "Categorías";
-            this.mnuCategorias.Click += new System.EventHandler(this.mnuCategorias_Click);
-            // 
-            // mnuProductos
-            // 
-            this.mnuProductos.Image = global::CopanStock.Properties.Resources.icon_producto_20px;
-            this.mnuProductos.Name = "mnuProductos";
-            this.mnuProductos.Size = new System.Drawing.Size(228, 30);
-            this.mnuProductos.Text = "Productos";
-            this.mnuProductos.Click += new System.EventHandler(this.mnuProductos_Click);
-            // 
-            // mnuAyuda
-            // 
-            this.mnuAyuda.Image = global::CopanStock.Properties.Resources.icon_ayuda_20px;
-            this.mnuAyuda.Name = "mnuAyuda";
-            this.mnuAyuda.Size = new System.Drawing.Size(89, 28);
-            this.mnuAyuda.Text = "Ayuda";
             // 
             // FrmHome
             // 

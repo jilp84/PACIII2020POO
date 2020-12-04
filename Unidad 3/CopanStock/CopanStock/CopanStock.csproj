@@ -114,6 +114,18 @@
     <Compile Include="Views\Sesion\FrmIniciarSesion.Designer.cs">
       <DependentUpon>FrmIniciarSesion.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\Venta\FrmVentaInsert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Venta\FrmVentaInsert.Designer.cs">
+      <DependentUpon>FrmVentaInsert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Venta\FrmVentaList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Venta\FrmVentaList.Designer.cs">
+      <DependentUpon>FrmVentaList.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -153,6 +165,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Sesion\FrmIniciarSesion.resx">
       <DependentUpon>FrmIniciarSesion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Venta\FrmVentaInsert.resx">
+      <DependentUpon>FrmVentaInsert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Venta\FrmVentaList.resx">
+      <DependentUpon>FrmVentaList.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

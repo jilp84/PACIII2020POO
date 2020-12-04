@@ -28,3 +28,5 @@ C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStock\obj\Debug\CopanStock.V
 C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStock\obj\Debug\CopanStock.Views.Producto.FrmProductoInsert.resources
 C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStock\obj\Debug\CopanStock.Views.Producto.FrmProductoEdit.resources
 C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStock\obj\Debug\CopanStock.Views.Producto.FrmProductoDelete.resources
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStock\obj\Debug\CopanStock.Views.Venta.FrmVentaList.resources
+C:\Practicas\PACIII2020POO\Unidad 3\CopanStock\CopanStock\obj\Debug\CopanStock.Views.Venta.FrmVentaInsert.resources

@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="VentaController.cs" />
     <Compile Include="ProductoController.cs" />
     <Compile Include="CategoriaController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
